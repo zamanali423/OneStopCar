@@ -12,7 +12,7 @@ const AppProvider = ({ children }) => {
   const [user, setUser] = useState("");
   const [token, setToken] = useState(localStorage.getItem("token"));
   const isLogin = !!token;
-  const url = "http://localhost:1627";
+  const url = "https://onestopcarbackend.vercel.app";
   const productRef = useRef(null);
 
   const logout = () => {
