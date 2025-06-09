@@ -1,0 +1,32 @@
+{
+  "name": "onestopcar",
+  "version": "1.0.0",
+  "description": "Illuminate Your Drive with OneStopCar LED Lights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "keywords": [
+    "onestopcar",
+    "Best Led lights",
+    "Best Led lights in Pakistan",
+    "Best Led headlights"
+  ],
+  "author": "Zaman Ali",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.3",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.5"
+  }
+}
