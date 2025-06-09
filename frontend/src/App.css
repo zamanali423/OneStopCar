@@ -1,0 +1,106 @@
+.ReactModal__Overlay {
+  z-index: 2 !important;
+}
+
+/* featured products */
+.block-products-carousel__carousel {
+  flex-direction: column !important;
+}
+/* .product-card:hover .product-card__addtocart-icon{
+    background-color: #f35f0a !important;
+    color: #fff !important;
+} */
+.product-gallery__featured,
+.product-gallery__thumbnails {
+  display: block;
+  height: auto;
+}
+
+/* image carousel  */
+.carousel-slide {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.carousel-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carousel-indicators {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%; */
+  gap: 10px;
+  bottom: auto;
+  right: auto;
+  left: -31px;
+}
+
+.carousel-thumbnail {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  flex-shrink: 0;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.carousel-thumbnail.active {
+  border-color: #2d5be3; /* Highlight selected thumbnail */
+}
+
+/* logo  */
+.logoMain {
+  width: 21%;
+  float: right;
+  filter: invert(1);
+}
+
+/* team */
+.block-teammates__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.teammate__avatar {
+  height: 300px;
+  overflow: hidden;
+}
+.teammate__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.teammate__info {
+  text-align: center;
+}
+.teammate__name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.teammate__position {
+  font-size: 14px;
+  color: #666;
+}
+
+/* testimonials */
+.block-reviews__item{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.block-products-carousel__carousel .owl-item{
+  width: 96% !important;
+}
+.image--type--product .image__tag, .image--type--category .image__tag {
+  height: 97%;
+  padding-top: 3%;
+}
